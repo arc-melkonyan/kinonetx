@@ -1,0 +1,33 @@
+body {
+  background-color: #000;
+
+  .container {
+    padding: 0 15px;
+
+    @media (min-width: 575.98px) {
+      padding: 0 calc(50% - 270px);
+    }
+
+    @media (min-width: 767.98px) {
+      padding: 0 calc(50% - 360px);
+    }
+
+    @media (min-width: 991.98px) {
+      padding: 0 calc(50% - 480px);
+    }
+
+    @media (min-width: 1199.98px) {
+      padding: 0 calc(50% - 590px);
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #157ee6;
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

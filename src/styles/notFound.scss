@@ -1,0 +1,12 @@
+.notFound {
+  display: block;
+  text-align: center;
+  font-size: 8rem;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 6rem;
+
+  @media (max-width: 435px) {
+    font-size: 5rem;
+  }
+}

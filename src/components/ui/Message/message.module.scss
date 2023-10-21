@@ -1,0 +1,29 @@
+.root {
+  cursor: pointer;
+  position: fixed;
+  top: 29px;
+  right: 20px;
+
+  .success,
+  .error {
+    padding: 15px;
+    border-radius: 13px;
+    font-weight: 400;
+  }
+
+  .success {
+    background-color: #4ddf85;
+
+    .text {
+      color: #000;
+    }
+  }
+
+  .error {
+    background-color: #df4d4d;
+
+    .text {
+      color: #fff;
+    }
+  }
+}

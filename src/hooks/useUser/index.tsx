@@ -38,7 +38,7 @@ const useUser = ({ redirect }: { redirect: string }) => {
 
       setIsLoading(false);
     }
-  }, []);
+  }, [dispatch, redirect, refresh, router]);
 
   return { user, isLoading, Logout };
 };

@@ -18,7 +18,7 @@ const Message: React.FC<IMessage> = ({ message, onClose }) => {
       console.log('end');
     }, 3000);
     return () => clearTimeout(timer);
-  }, [message.text]);
+  }, [message.text, onClose]);
 
   if (message.text) {
     return (

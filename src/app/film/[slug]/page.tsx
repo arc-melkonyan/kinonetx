@@ -3,6 +3,8 @@ import { FilmService } from '@/services/film.service';
 import { Metadata, ResolvingMetadata } from 'next';
 import { cookies } from 'next/headers';
 
+export const revalidate = 4600;
+
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const { data } = await FilmService.getBySlug(params.slug, undefined);
 

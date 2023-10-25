@@ -2,7 +2,7 @@
   "name": "kinonetx",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://kinonetx-backend.vercel.app",
+  "proxy": "https://api.kinonetx.site",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -40,6 +40,7 @@
     "react-redux": "^8.1.2",
     "redux": "^4.2.1",
     "sass": "^1.68.0",
+    "sharp": "^0.32.6",
     "swr": "^2.2.4",
     "typescript": "5.2.2"
   },

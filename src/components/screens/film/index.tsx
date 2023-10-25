@@ -6,7 +6,6 @@ import Image from 'next/image';
 import { IconBookmark, IconBookmarkFilled } from '@tabler/icons-react';
 import { FilmService } from '@/services/film.service';
 import { useRouter } from 'next/navigation';
-import { revalidatePath } from 'next/cache';
 
 const Film = (data: IFilm) => {
   const router = useRouter();
